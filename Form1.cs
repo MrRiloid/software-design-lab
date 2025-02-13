@@ -1,10 +1,13 @@
-namespace calculator
+namespace calculator;
+
+public partial class Form1 : Form
 {
-    public partial class Form1 : Form
+    public Form1()
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+        label1.Text = "label1321312";
+
     }
+
+
 }
