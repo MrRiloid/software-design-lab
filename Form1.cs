@@ -5,7 +5,6 @@ namespace calculator
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "qwe";
         }
     }
 }
