@@ -39,211 +39,261 @@
             num9Bt = new Button();
             deletALlBt = new Button();
             deleteCharBt = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            minusBt = new Button();
+            plusBt = new Button();
+            dvBt = new Button();
+            multBt = new Button();
+            percentBt = new Button();
+            equalBt = new Button();
+            dotBtn = new Button();
             num0Bt = new Button();
-            button10 = new Button();
+            btnReverse = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // num1Bt
             // 
-            num1Bt.Location = new Point(12, 396);
+            num1Bt.Location = new Point(11, 408);
             num1Bt.Name = "num1Bt";
             num1Bt.Size = new Size(80, 80);
             num1Bt.TabIndex = 0;
             num1Bt.Text = "1";
             num1Bt.UseVisualStyleBackColor = true;
+            num1Bt.Click += num1Bt_Click;
             // 
             // num2Bt
             // 
-            num2Bt.Location = new Point(98, 396);
+            num2Bt.Location = new Point(97, 408);
             num2Bt.Name = "num2Bt";
             num2Bt.Size = new Size(80, 80);
             num2Bt.TabIndex = 1;
             num2Bt.Text = "2";
             num2Bt.UseVisualStyleBackColor = true;
+            num2Bt.Click += num2Bt_Click;
             // 
             // num3Bt
             // 
-            num3Bt.Location = new Point(184, 396);
+            num3Bt.Location = new Point(183, 408);
             num3Bt.Name = "num3Bt";
             num3Bt.Size = new Size(80, 80);
             num3Bt.TabIndex = 2;
             num3Bt.Text = "3";
             num3Bt.UseVisualStyleBackColor = true;
+            num3Bt.Click += num3Bt_Click;
             // 
             // num4Bt
             // 
-            num4Bt.Location = new Point(12, 310);
+            num4Bt.Location = new Point(11, 322);
             num4Bt.Name = "num4Bt";
             num4Bt.Size = new Size(80, 80);
             num4Bt.TabIndex = 3;
             num4Bt.Text = "4";
             num4Bt.UseVisualStyleBackColor = true;
+            num4Bt.Click += num4Bt_Click;
             // 
             // num6Bt
             // 
-            num6Bt.Location = new Point(98, 310);
+            num6Bt.Location = new Point(97, 322);
             num6Bt.Name = "num6Bt";
             num6Bt.Size = new Size(80, 80);
             num6Bt.TabIndex = 4;
             num6Bt.Text = "5";
             num6Bt.UseVisualStyleBackColor = true;
+            num6Bt.Click += num6Bt_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(184, 310);
+            button6.Location = new Point(183, 322);
             button6.Name = "button6";
             button6.Size = new Size(80, 80);
             button6.TabIndex = 5;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // num7Bt
             // 
-            num7Bt.Location = new Point(12, 224);
+            num7Bt.Location = new Point(11, 236);
             num7Bt.Name = "num7Bt";
             num7Bt.Size = new Size(80, 80);
             num7Bt.TabIndex = 6;
             num7Bt.Text = "7";
             num7Bt.UseVisualStyleBackColor = true;
+            num7Bt.Click += num7Bt_Click;
             // 
             // num8Bt
             // 
-            num8Bt.Location = new Point(98, 224);
+            num8Bt.Location = new Point(97, 236);
             num8Bt.Name = "num8Bt";
             num8Bt.Size = new Size(80, 80);
             num8Bt.TabIndex = 7;
             num8Bt.Text = "8";
             num8Bt.UseVisualStyleBackColor = true;
+            num8Bt.Click += num8Bt_Click;
             // 
             // num9Bt
             // 
-            num9Bt.Location = new Point(184, 224);
+            num9Bt.Location = new Point(183, 236);
             num9Bt.Name = "num9Bt";
             num9Bt.Size = new Size(80, 80);
             num9Bt.TabIndex = 8;
             num9Bt.Text = "9";
             num9Bt.UseVisualStyleBackColor = true;
+            num9Bt.Click += num9Bt_Click;
             // 
             // deletALlBt
             // 
-            deletALlBt.Location = new Point(12, 138);
+            deletALlBt.Location = new Point(11, 150);
             deletALlBt.Name = "deletALlBt";
             deletALlBt.Size = new Size(80, 80);
             deletALlBt.TabIndex = 9;
             deletALlBt.Text = "C";
             deletALlBt.UseVisualStyleBackColor = true;
+            deletALlBt.Click += deletALlBt_Click;
             // 
             // deleteCharBt
             // 
-            deleteCharBt.Location = new Point(98, 138);
+            deleteCharBt.Location = new Point(97, 150);
             deleteCharBt.Name = "deleteCharBt";
             deleteCharBt.Size = new Size(80, 80);
             deleteCharBt.TabIndex = 10;
             deleteCharBt.Text = "<=";
             deleteCharBt.UseVisualStyleBackColor = true;
+            deleteCharBt.Click += deleteCharBt_Click;
             // 
-            // button1
+            // minusBt
             // 
-            button1.Location = new Point(270, 396);
-            button1.Name = "button1";
-            button1.Size = new Size(80, 80);
-            button1.TabIndex = 11;
-            button1.Text = "-";
-            button1.UseVisualStyleBackColor = true;
+            minusBt.Location = new Point(269, 408);
+            minusBt.Name = "minusBt";
+            minusBt.Size = new Size(80, 80);
+            minusBt.TabIndex = 11;
+            minusBt.Text = "-";
+            minusBt.UseVisualStyleBackColor = true;
+            minusBt.Click += minusBt_Click;
             // 
-            // button2
+            // plusBt
             // 
-            button2.Location = new Point(270, 310);
-            button2.Name = "button2";
-            button2.Size = new Size(80, 80);
-            button2.TabIndex = 12;
-            button2.Text = "+";
-            button2.UseVisualStyleBackColor = true;
+            plusBt.Location = new Point(269, 322);
+            plusBt.Name = "plusBt";
+            plusBt.Size = new Size(80, 80);
+            plusBt.TabIndex = 12;
+            plusBt.Text = "+";
+            plusBt.UseVisualStyleBackColor = true;
+            plusBt.Click += plusBt_Click;
             // 
-            // button3
+            // dvBt
             // 
-            button3.Location = new Point(270, 224);
-            button3.Name = "button3";
-            button3.Size = new Size(80, 80);
-            button3.TabIndex = 13;
-            button3.Text = "/";
-            button3.UseVisualStyleBackColor = true;
+            dvBt.Location = new Point(269, 236);
+            dvBt.Name = "dvBt";
+            dvBt.Size = new Size(80, 80);
+            dvBt.TabIndex = 13;
+            dvBt.Text = "/";
+            dvBt.UseVisualStyleBackColor = true;
+            dvBt.Click += dvBt_Click;
             // 
-            // button4
+            // multBt
             // 
-            button4.Location = new Point(270, 138);
-            button4.Name = "button4";
-            button4.Size = new Size(80, 80);
-            button4.TabIndex = 14;
-            button4.Text = "*";
-            button4.UseVisualStyleBackColor = true;
+            multBt.Location = new Point(269, 150);
+            multBt.Name = "multBt";
+            multBt.Size = new Size(80, 80);
+            multBt.TabIndex = 14;
+            multBt.Text = "*";
+            multBt.UseVisualStyleBackColor = true;
+            multBt.Click += multBt_Click;
             // 
-            // button5
+            // percentBt
             // 
-            button5.Location = new Point(184, 138);
-            button5.Name = "button5";
-            button5.Size = new Size(80, 80);
-            button5.TabIndex = 15;
-            button5.Text = "%";
-            button5.UseVisualStyleBackColor = true;
+            percentBt.Location = new Point(183, 150);
+            percentBt.Name = "percentBt";
+            percentBt.Size = new Size(80, 80);
+            percentBt.TabIndex = 15;
+            percentBt.Text = "%";
+            percentBt.UseVisualStyleBackColor = true;
+            percentBt.Click += percentBt_Click;
             // 
-            // button7
+            // equalBt
             // 
-            button7.Location = new Point(270, 482);
-            button7.Name = "button7";
-            button7.Size = new Size(80, 80);
-            button7.TabIndex = 19;
-            button7.Text = "=";
-            button7.UseVisualStyleBackColor = true;
+            equalBt.Location = new Point(269, 494);
+            equalBt.Name = "equalBt";
+            equalBt.Size = new Size(80, 80);
+            equalBt.TabIndex = 19;
+            equalBt.Text = "=";
+            equalBt.UseVisualStyleBackColor = true;
+            equalBt.Click += equalBt_Click;
             // 
-            // button8
+            // dotBtn
             // 
-            button8.Location = new Point(184, 482);
-            button8.Name = "button8";
-            button8.Size = new Size(80, 80);
-            button8.TabIndex = 18;
-            button8.Text = ".";
-            button8.UseVisualStyleBackColor = true;
+            dotBtn.Location = new Point(183, 494);
+            dotBtn.Name = "dotBtn";
+            dotBtn.Size = new Size(80, 80);
+            dotBtn.TabIndex = 18;
+            dotBtn.Text = ".";
+            dotBtn.UseVisualStyleBackColor = true;
+            dotBtn.Click += dotBtn_Click;
             // 
             // num0Bt
             // 
-            num0Bt.Location = new Point(98, 482);
+            num0Bt.Location = new Point(97, 494);
             num0Bt.Name = "num0Bt";
             num0Bt.Size = new Size(80, 80);
             num0Bt.TabIndex = 17;
             num0Bt.Text = "0";
             num0Bt.UseVisualStyleBackColor = true;
+            num0Bt.Click += num0Bt_Click;
             // 
-            // button10
+            // btnReverse
             // 
-            button10.Location = new Point(12, 482);
-            button10.Name = "button10";
-            button10.Size = new Size(80, 80);
-            button10.TabIndex = 16;
-            button10.Text = "+/-";
-            button10.UseVisualStyleBackColor = true;
+            btnReverse.Location = new Point(11, 494);
+            btnReverse.Name = "btnReverse";
+            btnReverse.Size = new Size(80, 80);
+            btnReverse.TabIndex = 16;
+            btnReverse.Text = "+/-";
+            btnReverse.UseVisualStyleBackColor = true;
+            btnReverse.Click += btnReverse_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.ButtonHighlight;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Segoe UI", 20F);
+            textBox1.Location = new Point(11, 90);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.RightToLeft = RightToLeft.Yes;
+            textBox1.Size = new Size(338, 54);
+            textBox1.TabIndex = 20;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = SystemColors.Control;
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Segoe UI", 16F);
+            textBox2.Location = new Point(12, 34);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
+            textBox2.RightToLeft = RightToLeft.Yes;
+            textBox2.Size = new Size(338, 50);
+            textBox2.TabIndex = 21;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(361, 573);
-            Controls.Add(button7);
-            Controls.Add(button8);
+            ClientSize = new Size(361, 584);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(equalBt);
+            Controls.Add(dotBtn);
             Controls.Add(num0Bt);
-            Controls.Add(button10);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnReverse);
+            Controls.Add(percentBt);
+            Controls.Add(multBt);
+            Controls.Add(dvBt);
+            Controls.Add(plusBt);
+            Controls.Add(minusBt);
             Controls.Add(deleteCharBt);
             Controls.Add(deletALlBt);
             Controls.Add(num9Bt);
@@ -258,6 +308,7 @@
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -273,14 +324,16 @@
         private Button num9Bt;
         private Button deletALlBt;
         private Button deleteCharBt;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button7;
-        private Button button8;
+        private Button minusBt;
+        private Button plusBt;
+        private Button dvBt;
+        private Button multBt;
+        private Button percentBt;
+        private Button equalBt;
+        private Button dotBtn;
         private Button num0Bt;
-        private Button button10;
+        private Button btnReverse;
+        private TextBox textBox1;
+        private TextBox textBox2;
     }
 }
