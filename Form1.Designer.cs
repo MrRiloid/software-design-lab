@@ -28,15 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            num1Bt = new Button();
-            num2Bt = new Button();
-            num3Bt = new Button();
-            num4Bt = new Button();
-            num6Bt = new Button();
-            button6 = new Button();
-            num7Bt = new Button();
-            num8Bt = new Button();
-            num9Bt = new Button();
             deletALlBt = new Button();
             deleteCharBt = new Button();
             minusBt = new Button();
@@ -46,101 +37,20 @@
             percentBt = new Button();
             equalBt = new Button();
             dotBtn = new Button();
-            num0Bt = new Button();
             btnReverse = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            num0Bt = new NumButton();
+            num1Bt = new NumButton();
+            num2Bt = new NumButton();
+            num3Bt = new NumButton();
+            num6Bt = new NumButton();
+            num5Bt = new NumButton();
+            num4Bt = new NumButton();
+            num9Bt = new NumButton();
+            num8Bt = new NumButton();
+            num7Bt = new NumButton();
             SuspendLayout();
-            // 
-            // num1Bt
-            // 
-            num1Bt.Location = new Point(11, 408);
-            num1Bt.Name = "num1Bt";
-            num1Bt.Size = new Size(80, 80);
-            num1Bt.TabIndex = 0;
-            num1Bt.Text = "1";
-            num1Bt.UseVisualStyleBackColor = true;
-            num1Bt.Click += num1Bt_Click;
-            // 
-            // num2Bt
-            // 
-            num2Bt.Location = new Point(97, 408);
-            num2Bt.Name = "num2Bt";
-            num2Bt.Size = new Size(80, 80);
-            num2Bt.TabIndex = 1;
-            num2Bt.Text = "2";
-            num2Bt.UseVisualStyleBackColor = true;
-            num2Bt.Click += num2Bt_Click;
-            // 
-            // num3Bt
-            // 
-            num3Bt.Location = new Point(183, 408);
-            num3Bt.Name = "num3Bt";
-            num3Bt.Size = new Size(80, 80);
-            num3Bt.TabIndex = 2;
-            num3Bt.Text = "3";
-            num3Bt.UseVisualStyleBackColor = true;
-            num3Bt.Click += num3Bt_Click;
-            // 
-            // num4Bt
-            // 
-            num4Bt.Location = new Point(11, 322);
-            num4Bt.Name = "num4Bt";
-            num4Bt.Size = new Size(80, 80);
-            num4Bt.TabIndex = 3;
-            num4Bt.Text = "4";
-            num4Bt.UseVisualStyleBackColor = true;
-            num4Bt.Click += num4Bt_Click;
-            // 
-            // num6Bt
-            // 
-            num6Bt.Location = new Point(97, 322);
-            num6Bt.Name = "num6Bt";
-            num6Bt.Size = new Size(80, 80);
-            num6Bt.TabIndex = 4;
-            num6Bt.Text = "5";
-            num6Bt.UseVisualStyleBackColor = true;
-            num6Bt.Click += num6Bt_Click;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(183, 322);
-            button6.Name = "button6";
-            button6.Size = new Size(80, 80);
-            button6.TabIndex = 5;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // num7Bt
-            // 
-            num7Bt.Location = new Point(11, 236);
-            num7Bt.Name = "num7Bt";
-            num7Bt.Size = new Size(80, 80);
-            num7Bt.TabIndex = 6;
-            num7Bt.Text = "7";
-            num7Bt.UseVisualStyleBackColor = true;
-            num7Bt.Click += num7Bt_Click;
-            // 
-            // num8Bt
-            // 
-            num8Bt.Location = new Point(97, 236);
-            num8Bt.Name = "num8Bt";
-            num8Bt.Size = new Size(80, 80);
-            num8Bt.TabIndex = 7;
-            num8Bt.Text = "8";
-            num8Bt.UseVisualStyleBackColor = true;
-            num8Bt.Click += num8Bt_Click;
-            // 
-            // num9Bt
-            // 
-            num9Bt.Location = new Point(183, 236);
-            num9Bt.Name = "num9Bt";
-            num9Bt.Size = new Size(80, 80);
-            num9Bt.TabIndex = 8;
-            num9Bt.Text = "9";
-            num9Bt.UseVisualStyleBackColor = true;
-            num9Bt.Click += num9Bt_Click;
             // 
             // deletALlBt
             // 
@@ -232,16 +142,6 @@
             dotBtn.UseVisualStyleBackColor = true;
             dotBtn.Click += dotBtn_Click;
             // 
-            // num0Bt
-            // 
-            num0Bt.Location = new Point(97, 494);
-            num0Bt.Name = "num0Bt";
-            num0Bt.Size = new Size(80, 80);
-            num0Bt.TabIndex = 17;
-            num0Bt.Text = "0";
-            num0Bt.UseVisualStyleBackColor = true;
-            num0Bt.Click += num0Bt_Click;
-            // 
             // btnReverse
             // 
             btnReverse.Location = new Point(11, 494);
@@ -278,16 +178,125 @@
             textBox2.Size = new Size(338, 50);
             textBox2.TabIndex = 21;
             // 
+            // num0Bt
+            // 
+            num0Bt.Location = new Point(97, 494);
+            num0Bt.Name = "num0Bt";
+            num0Bt.Num = "9";
+            num0Bt.Size = new Size(80, 78);
+            num0Bt.TabIndex = 22;
+            num0Bt.Text = "0";
+            num0Bt.Click += num0Bt_Click;
+            // 
+            // num1Bt
+            // 
+            num1Bt.Location = new Point(12, 410);
+            num1Bt.Name = "num1Bt";
+            num1Bt.Num = "1";
+            num1Bt.Size = new Size(80, 78);
+            num1Bt.TabIndex = 23;
+            num1Bt.Text = "1";
+            num1Bt.Click += num1Bt_Click_1;
+            // 
+            // num2Bt
+            // 
+            num2Bt.Location = new Point(98, 410);
+            num2Bt.Name = "num2Bt";
+            num2Bt.Num = "2";
+            num2Bt.Size = new Size(80, 78);
+            num2Bt.TabIndex = 24;
+            num2Bt.Text = "2";
+            num2Bt.Click += num2Bt_Click;
+            // 
+            // num3Bt
+            // 
+            num3Bt.Location = new Point(184, 410);
+            num3Bt.Name = "num3Bt";
+            num3Bt.Num = "3";
+            num3Bt.Size = new Size(80, 78);
+            num3Bt.TabIndex = 25;
+            num3Bt.Text = "3";
+            num3Bt.Click += num3Bt_Click;
+            // 
+            // num6Bt
+            // 
+            num6Bt.Location = new Point(184, 322);
+            num6Bt.Name = "num6Bt";
+            num6Bt.Num = "6";
+            num6Bt.Size = new Size(80, 78);
+            num6Bt.TabIndex = 28;
+            num6Bt.Text = "6";
+            num6Bt.Click += num6Bt_Click;
+            // 
+            // num5Bt
+            // 
+            num5Bt.Location = new Point(98, 322);
+            num5Bt.Name = "num5Bt";
+            num5Bt.Num = "5";
+            num5Bt.Size = new Size(80, 78);
+            num5Bt.TabIndex = 27;
+            num5Bt.Text = "5";
+            num5Bt.Click += num5Bt_Click;
+            // 
+            // num4Bt
+            // 
+            num4Bt.Location = new Point(12, 322);
+            num4Bt.Name = "num4Bt";
+            num4Bt.Num = "4";
+            num4Bt.Size = new Size(80, 78);
+            num4Bt.TabIndex = 26;
+            num4Bt.Text = "4";
+            num4Bt.Click += num4Bt_Click;
+            // 
+            // num9Bt
+            // 
+            num9Bt.Location = new Point(184, 238);
+            num9Bt.Name = "num9Bt";
+            num9Bt.Num = "9";
+            num9Bt.Size = new Size(80, 78);
+            num9Bt.TabIndex = 31;
+            num9Bt.Text = "9";
+            num9Bt.Click += num9Bt_Click;
+            // 
+            // num8Bt
+            // 
+            num8Bt.Location = new Point(98, 238);
+            num8Bt.Name = "num8Bt";
+            num8Bt.Num = "8";
+            num8Bt.Size = new Size(80, 78);
+            num8Bt.TabIndex = 30;
+            num8Bt.Text = "8";
+            num8Bt.Click += num8Bt_Click;
+            // 
+            // num7Bt
+            // 
+            num7Bt.Location = new Point(12, 238);
+            num7Bt.Name = "num7Bt";
+            num7Bt.Num = "7";
+            num7Bt.Size = new Size(80, 78);
+            num7Bt.TabIndex = 29;
+            num7Bt.Text = "7";
+            num7Bt.Click += num7Bt_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(361, 584);
+            ClientSize = new Size(357, 584);
+            Controls.Add(num9Bt);
+            Controls.Add(num8Bt);
+            Controls.Add(num7Bt);
+            Controls.Add(num6Bt);
+            Controls.Add(num5Bt);
+            Controls.Add(num4Bt);
+            Controls.Add(num3Bt);
+            Controls.Add(num2Bt);
+            Controls.Add(num1Bt);
+            Controls.Add(num0Bt);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(equalBt);
             Controls.Add(dotBtn);
-            Controls.Add(num0Bt);
             Controls.Add(btnReverse);
             Controls.Add(percentBt);
             Controls.Add(multBt);
@@ -296,15 +305,6 @@
             Controls.Add(minusBt);
             Controls.Add(deleteCharBt);
             Controls.Add(deletALlBt);
-            Controls.Add(num9Bt);
-            Controls.Add(num8Bt);
-            Controls.Add(num7Bt);
-            Controls.Add(button6);
-            Controls.Add(num6Bt);
-            Controls.Add(num4Bt);
-            Controls.Add(num3Bt);
-            Controls.Add(num2Bt);
-            Controls.Add(num1Bt);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -312,16 +312,6 @@
         }
 
         #endregion
-
-        private Button num1Bt;
-        private Button num2Bt;
-        private Button num3Bt;
-        private Button num4Bt;
-        private Button num6Bt;
-        private Button button6;
-        private Button num7Bt;
-        private Button num8Bt;
-        private Button num9Bt;
         private Button deletALlBt;
         private Button deleteCharBt;
         private Button minusBt;
@@ -331,9 +321,18 @@
         private Button percentBt;
         private Button equalBt;
         private Button dotBtn;
-        private Button num0Bt;
         private Button btnReverse;
         private TextBox textBox1;
         private TextBox textBox2;
+        private NumButton num0Bt;
+        private NumButton num1Bt;
+        private NumButton num2Bt;
+        private NumButton num3Bt;
+        private NumButton num6Bt;
+        private NumButton num5Bt;
+        private NumButton num4Bt;
+        private NumButton num9Bt;
+        private NumButton num8Bt;
+        private NumButton num7Bt;
     }
 }
